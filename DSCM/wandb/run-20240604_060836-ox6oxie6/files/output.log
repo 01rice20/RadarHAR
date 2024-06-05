@@ -1,0 +1,988 @@
+
+Using device: cuda
+Number of parameter:  14.4782M
+Epoch 1, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=1.1307474720478057
+Epoch 2, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.8975831172863642
+Epoch 3, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.7172137248723043
+Epoch 4, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.5921925544925034
+Epoch 5, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.5075122001373674
+val_loss=0.5890962108969688, val_acc=0.79195
+Epoch 6, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.42935445711721615
+Epoch 7, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.37083968472712775
+Epoch 8, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.3306901418184619
+Epoch 9, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.30367053455882276
+Epoch 10, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.28372713802190264
+val_loss=0.8189670680777023, val_acc=0.75168
+Epoch 11, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.2681487263263041
+Epoch 12, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.24829636192659058
+Epoch 13, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.23025596419580652
+Epoch 14, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.2152524586395053
+Epoch 15, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.20162108233419712
+val_loss=0.9618700191260136, val_acc=0.77852
+Epoch 16, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.18923424022267682
+Epoch 17, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.17814712955451636
+Epoch 18, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.16827281530277172
+Epoch 19, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.15943382080682728
+Epoch 20, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.15147607349754405
+val_loss=0.998577791791544, val_acc=0.78523
+Early stopping
+test_precision=0.78406, test_recall=0.79464, test_f1=0.78616, test_accuracy=0.78523
+Number of parameter:  14.4782M
+Epoch 1, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.8275249677151442
+Epoch 2, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.5354266881042471
+Epoch 3, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.3785922573462853
+Epoch 4, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.2885439298998487
+Epoch 5, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.23432824067616215
+val_loss=0.5903066064378149, val_acc=0.83221
+Epoch 6, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.19809760834349113
+Epoch 7, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.17130985336644308
+Epoch 8, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.15022278417095852
+Epoch 9, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.13365928839943889
+Epoch 10, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.12036835898076727
+val_loss=0.5855832596885433, val_acc=0.85235
+Epoch 11, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.10948102482341876
+Epoch 12, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.10040004070905625
+Epoch 13, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.09271045992731021
+Epoch 14, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.08611532290805675
+Epoch 15, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.0803964934990937
+val_loss=0.5878274738870299, val_acc=0.84564
+Epoch 16, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.07539014294524274
+Epoch 17, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.07097094885373272
+Epoch 18, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.06704130073831982
+Epoch 19, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.06352409469962113
+Epoch 20, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.060357627654056764
+val_loss=0.591459317911741, val_acc=0.85235
+Epoch 21, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.057491914773771795
+Epoch 22, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.05488603360996601
+Epoch 23, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.052506167186995197
+Epoch 24, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.050324123884866165
+Epoch 25, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.04831621853920345
+val_loss=0.5957842744243528, val_acc=0.85235
+Early stopping
+test_precision=0.85717, test_recall=0.85647, test_f1=0.85641, test_accuracy=0.85235
+Number of parameter:  14.4804M
+Epoch 1, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.6000121848161022
+Epoch 2, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.43221202738272646
+Epoch 3, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.316614600167765
+Epoch 4, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.2424606513798062
+Epoch 5, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.19997484389634337
+val_loss=0.5324209504025547, val_acc=0.85906
+Epoch 6, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.1747501598427415
+Epoch 7, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.16087071848995818
+Epoch 8, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.15173564425835745
+Epoch 9, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.1378741197381438
+Epoch 10, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.12853544962792268
+val_loss=0.6773727040149664, val_acc=0.86577
+Epoch 11, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.11759761125801588
+Epoch 12, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.10786947790495105
+Epoch 13, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.09958786938738927
+Epoch 14, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.09248411882513989
+Epoch 15, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.08632620803618657
+val_loss=0.6268282874810036, val_acc=0.88591
+Epoch 16, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.0809371709888139
+Epoch 17, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.07618150746892235
+Epoch 18, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.07195376977043107
+Epoch 19, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.06817067672059286
+Epoch 20, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.0647655843518509
+val_loss=0.6000079590559931, val_acc=0.89933
+Early stopping
+test_precision=0.89959, test_recall=0.90013, test_f1=0.89685, test_accuracy=0.89933
+Number of parameter:  14.4804M
+Epoch 1, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.49068371375401815
+Epoch 2, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.31512366386460294
+Epoch 3, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.2201192530517518
+Epoch 4, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.17003047242969235
+Epoch 5, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.13813703797802251
+val_loss=0.47293443843036104, val_acc=0.85906
+Epoch 6, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.11660926645730191
+Epoch 7, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.10304857691052997
+Epoch 8, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.09185474022979179
+Epoch 9, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.08191060065990718
+Epoch 10, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.07377858251461536
+val_loss=0.4205544900492226, val_acc=0.89933
+Epoch 11, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.0671079036947859
+Epoch 12, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.06154296327584436
+Epoch 13, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.056830264254432016
+Epoch 14, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.052788018191762646
+Epoch 15, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.049282749797934226
+val_loss=0.41151322508149113, val_acc=0.89933
+Epoch 16, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.04621409499081646
+Epoch 17, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.043505263765156246
+Epoch 18, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.04109646500225772
+Epoch 19, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.03894046902831669
+Epoch 20, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.0369994598226743
+val_loss=0.4108820012632733, val_acc=0.89933
+Epoch 21, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.03524280073872397
+Epoch 22, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.03364542071064026
+Epoch 23, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.032186586791066694
+Epoch 24, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.030849020199201948
+Epoch 25, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.029618200860137858
+val_loss=0.41278474934423637, val_acc=0.89933
+Epoch 26, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.028481836683840345
+Epoch 27, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.02742945445116213
+Epoch 28, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.026452074770742365
+Epoch 29, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.025541952654769325
+Epoch 30, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.024692376509875387
+val_loss=0.41562132003182023, val_acc=0.89933
+Epoch 31, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.023897497532952863
+Epoch 32, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.02315219679397117
+Epoch 33, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.022451975796278088
+Epoch 34, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.02179286335824416
+Epoch 35, 60 GHz, batch_size=8, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.021171342686046684
+val_loss=0.41882691373243314, val_acc=0.89933
+Early stopping
+test_precision=0.90609, test_recall=0.90169, test_f1=0.90004, test_accuracy=0.89933
+Number of parameter:  16.5817M
+Epoch 1, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.44813490357249974
+Epoch 2, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.3145642332168063
+Epoch 3, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.22193950607713
+Epoch 4, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.1834291634594653
+Epoch 5, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.14881778955104527
+val_loss=1.0091869295452183, val_acc=0.8255
+Epoch 6, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.12450777719505116
+Epoch 7, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.10686081001811111
+Epoch 8, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.09353387874095612
+Epoch 9, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.08316072321806604
+Epoch 10, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.07485941182218267
+val_loss=0.7501487424585656, val_acc=0.89262
+Epoch 11, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.06806560348307303
+Epoch 12, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.06240280241264953
+Epoch 13, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.05761022956007764
+Epoch 14, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.053501564749796365
+Epoch 15, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.049940134805631614
+val_loss=0.6666842336141455, val_acc=0.87919
+Epoch 16, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.04682340144069049
+Epoch 17, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.044072949845404476
+Epoch 18, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.04162778897119526
+Epoch 19, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.03943974873580349
+Epoch 20, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.037470291954234125
+val_loss=0.6270897481958136, val_acc=0.87919
+Epoch 21, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.035688215980271415
+Epoch 22, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.03406798814539219
+Epoch 23, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.03258851181739848
+Epoch 24, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.03123220841501671
+Epoch 25, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.02998430663188671
+val_loss=0.6050270923163656, val_acc=0.87919
+Epoch 26, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.0288323074873517
+Epoch 27, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.027765563290036478
+Epoch 28, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.02677494592259477
+Epoch 29, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.025852585825281618
+Epoch 30, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.024991662110696578
+val_loss=0.5917045705142268, val_acc=0.87919
+Epoch 31, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.024186233608879726
+Epoch 32, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.02343110123129333
+Epoch 33, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.022721696027838266
+Epoch 34, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.022053986022901345
+Epoch 35, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.021424399794031657
+val_loss=0.5832867440359203, val_acc=0.87919
+Epoch 36, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.02082976266080249
+Epoch 37, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.020267242555566764
+Epoch 38, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.019734305894219324
+Epoch 39, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.019228678249649626
+Epoch 40, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.018748312905653486
+val_loss=0.5779474583345482, val_acc=0.87919
+Epoch 41, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.018291362549513742
+Epoch 42, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.01785615571317385
+Epoch 43, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.017441176169142862
+Epoch 44, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.017045045718427514
+Epoch 45, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.016666508584752087
+val_loss=0.5746575525239072, val_acc=0.87919
+Epoch 46, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.01630441808180156
+Epoch 47, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.015957724969887305
+Epoch 48, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.015625467503906115
+Epoch 49, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.015306762367481238
+Epoch 50, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.015000796957222307
+val_loss=0.5727917861530889, val_acc=0.87919
+Epoch 51, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.014706822422822782
+Epoch 52, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.014424147250404126
+Epoch 53, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.014152132310745063
+Epoch 54, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.013890185736588746
+Epoch 55, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.013637758618882272
+val_loss=0.571968500127365, val_acc=0.87919
+Epoch 56, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.01339434140181814
+Epoch 57, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.013159460183332864
+Epoch 58, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.012932673572984039
+Epoch 59, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.012713570310525125
+Epoch 60, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.012501766420609111
+val_loss=0.5719136825132649, val_acc=0.87919
+Epoch 61, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.012296903178252558
+Epoch 62, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.012098645133400924
+Epoch 63, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.011906677674002419
+Epoch 64, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.011720706248600379
+Epoch 65, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.01154045419968999
+val_loss=0.5724679637524356, val_acc=0.87919
+Epoch 66, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.011365661540556954
+Epoch 67, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.01119608410854663
+Epoch 68, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.011031491913604535
+Epoch 69, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.010871668324346821
+Epoch 70, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.010716409008852793
+val_loss=0.5734213244134384, val_acc=0.88591
+Epoch 71, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.010565521311959808
+Epoch 72, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.01041882306081443
+Epoch 73, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.010276142135403009
+Epoch 74, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.010137315961130853
+Epoch 75, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.010002190353250121
+val_loss=0.5745563623965688, val_acc=0.88591
+Early stopping
+test_precision=0.88535, test_recall=0.88411, test_f1=0.88321, test_accuracy=0.88591
+Number of parameter:  16.5817M
+Epoch 1, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.3948711449528734
+Epoch 2, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.233043194837713
+Epoch 3, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.15878932643465102
+Epoch 4, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.12034914868214401
+Epoch 5, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.09668838434147377
+val_loss=0.5505708462426954, val_acc=0.89262
+Epoch 6, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.0808069403495473
+Epoch 7, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.06943672894780667
+Epoch 8, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.06138323918847315
+Epoch 9, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.06129108125087509
+Epoch 10, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.0681686170564899
+val_loss=0.5732477447270771, val_acc=0.89933
+Epoch 11, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.06692335955905229
+Epoch 12, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.06371238571576719
+Epoch 13, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.05936252469798832
+Epoch 14, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.05516379232126892
+Epoch 15, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.05150236540927876
+val_loss=0.5812237461249695, val_acc=0.89262
+Epoch 16, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.048296058380116635
+Epoch 17, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.045465271766440406
+Epoch 18, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.04294781559196662
+Epoch 19, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.04069445409116414
+Epoch 20, 60 GHz, batch_size=8, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.03866572548313765
+val_loss=0.5886332999396376, val_acc=0.89262
+Early stopping
+test_precision=0.89064, test_recall=0.89789, test_f1=0.89033, test_accuracy=0.89262
+Number of parameter:  16.5903M
+Epoch 1, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.3739269563866158
+Epoch 2, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.2788181502285443
+Epoch 3, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.19693857438630302
+Epoch 4, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.1512440959800248
+Epoch 5, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.12138381657923795
+val_loss=0.5460493127282365, val_acc=0.89933
+Epoch 6, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.10121666170234095
+Epoch 7, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.08677855404709557
+Epoch 8, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.07594633342286983
+Epoch 9, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.06751909549635515
+Epoch 10, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.060775848040399906
+val_loss=0.5366334029240534, val_acc=0.90604
+Epoch 11, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.05525761551051267
+Epoch 12, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.050658327439967586
+Epoch 13, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.04676604800704654
+Epoch 14, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.043429362885730606
+Epoch 15, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.04053721874898861
+val_loss=0.5405824809834788, val_acc=0.90604
+Epoch 16, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.038006312500925385
+Epoch 17, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.03577293237358633
+Epoch 18, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.03378751892394651
+Epoch 19, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.032010941427164784
+Epoch 20, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.03041189124262282
+val_loss=0.5464583566852909, val_acc=0.91275
+Epoch 21, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.02896502161638956
+Epoch 22, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.02764959177675393
+Epoch 23, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.026448466834093978
+Epoch 24, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.025347366232378817
+Epoch 25, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.024334293184404488
+val_loss=0.5526130246954716, val_acc=0.90604
+Early stopping
+test_precision=0.91536, test_recall=0.9053, test_f1=0.90537, test_accuracy=0.90604
+Number of parameter:  16.5903M
+Epoch 1, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.3034998732153326
+Epoch 2, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.17974688685964793
+Epoch 3, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.12591638309347522
+Epoch 4, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.09498522831563605
+Epoch 5, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.07609638618289076
+val_loss=0.4051756027620286, val_acc=0.90604
+Epoch 6, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.0634759843509548
+Epoch 7, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.05444931274632403
+Epoch 8, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.047671882177508756
+Epoch 9, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.04239470730202238
+Epoch 10, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.03816956127360724
+val_loss=0.422533527691389, val_acc=0.90604
+Epoch 11, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.034710439246230525
+Epoch 12, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.03182634527965686
+Epoch 13, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.029384878889485988
+Epoch 14, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.02729138880168058
+Epoch 15, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.02547642634392792
+val_loss=0.43327373490498294, val_acc=0.90604
+Epoch 16, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.023887860244140503
+Epoch 17, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.022485810743097523
+Epoch 18, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.02123924631256041
+Epoch 19, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.020123656371046322
+Epoch 20, 60 GHz, batch_size=8, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.019119427104312442
+val_loss=0.4412513165556639, val_acc=0.90604
+Early stopping
+test_precision=0.91194, test_recall=0.90169, test_f1=0.90403, test_accuracy=0.90604
+Number of parameter:  20.8011M
+Epoch 1, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.31425948322480207
+Epoch 2, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.19881299666507782
+Epoch 3, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.13482122524336115
+Epoch 4, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.11474515015477853
+Epoch 5, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.11367931397023644
+val_loss=0.5892707175011501, val_acc=0.88591
+Epoch 6, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.11526351268679035
+Epoch 7, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.10554253286537783
+Epoch 8, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.09895590188904425
+Epoch 9, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.09572842231006301
+Epoch 10, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.0862232705150738
+val_loss=0.4915121313657245, val_acc=0.92617
+Epoch 11, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.07839914275691999
+Epoch 12, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.07187632570578634
+Epoch 13, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.06635536854595595
+Epoch 14, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.06162201573342483
+Epoch 15, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.057518992782922294
+val_loss=0.4641879670094855, val_acc=0.91946
+Epoch 16, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.05392826567084846
+Epoch 17, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.050759533527423455
+Epoch 18, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.04794253541697009
+Epoch 19, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.0454217863550457
+Epoch 20, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.043152886500133776
+val_loss=0.45343648222892863, val_acc=0.91946
+Epoch 21, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.04109988760635402
+Epoch 22, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.03923337075192669
+Epoch 23, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.037529029742160026
+Epoch 24, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.035966607265226554
+Epoch 25, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.03452908525776487
+val_loss=0.449002332665259, val_acc=0.91946
+Epoch 26, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.03320206143733608
+Epoch 27, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.031973266436094716
+Epoch 28, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.03083218200756026
+Epoch 29, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.029769740328375826
+Epoch 30, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.028778081678324862
+val_loss=0.44752800493312717, val_acc=0.91946
+Epoch 31, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.027850359975832056
+Epoch 32, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.02698058448373034
+Epoch 33, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.02616349035608749
+Epoch 34, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.025394431597341883
+Epoch 35, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.024669293160201135
+val_loss=0.44766335394609297, val_acc=0.91946
+Epoch 36, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.02398441707596288
+Epoch 37, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.02333654044007327
+Epoch 38, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.02272274369664747
+Epoch 39, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.022140406486952913
+Epoch 40, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.021587170537831463
+val_loss=0.44873552653879906, val_acc=0.91946
+Epoch 41, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.021060907530423854
+Epoch 42, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.02055969166318233
+Epoch 43, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.02008177639904272
+Epoch 44, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.01962557378287941
+Epoch 45, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.019189636914028314
+val_loss=0.45042307080826793, val_acc=0.91946
+Early stopping
+test_precision=0.92823, test_recall=0.92309, test_f1=0.92014, test_accuracy=0.91946
+Number of parameter:  20.8011M
+Epoch 1, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.2980910503709068
+Epoch 2, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.15618968267331487
+Epoch 3, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.10474304476037206
+Epoch 4, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.07871164010645164
+Epoch 5, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.06304928846530675
+val_loss=0.2585873478582423, val_acc=0.95302
+Epoch 6, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.0525901629185167
+Epoch 7, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.04510983944258139
+Epoch 8, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.039493913704435786
+Epoch 9, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.035122333097857776
+Epoch 10, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.031622615122119745
+val_loss=0.26988264055705113, val_acc=0.94631
+Epoch 11, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.02875748953955377
+Epoch 12, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.026368640779436736
+Epoch 13, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.02434638079285716
+Epoch 14, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.022612308901711668
+Epoch 15, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.021108898660007425
+val_loss=0.2793537000617474, val_acc=0.9396
+Epoch 16, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.019792982083668916
+Epoch 17, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.018631533415197892
+Epoch 18, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.017598854682487175
+Epoch 19, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.016674652193709772
+Epoch 20, 60 GHz, batch_size=8, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.015842684383335838
+val_loss=0.28808798391994633, val_acc=0.9396
+Early stopping
+test_precision=0.94383, test_recall=0.94147, test_f1=0.941, test_accuracy=0.9396
+Number of parameter:  20.8347M
+Epoch 1, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.28671905825690674
+Epoch 2, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.2121598727333185
+Epoch 3, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.15287694548147251
+Epoch 4, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.11475266907314392
+Epoch 5, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.09183153273275836
+val_loss=0.3802154356461343, val_acc=0.92617
+Epoch 6, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.07654527230108127
+Epoch 7, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.06562342194274937
+Epoch 8, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.05743008419410183
+Epoch 9, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.051056187899015816
+Epoch 10, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.04595616221648093
+val_loss=0.3899181386991825, val_acc=0.91275
+Epoch 11, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.04178275586497293
+Epoch 12, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.03830442709664055
+Epoch 13, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.03536085272609006
+Epoch 14, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.03283749823686086
+Epoch 15, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.030650360206362987
+val_loss=0.39815554338406, val_acc=0.91275
+Epoch 16, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.028736429804524923
+Epoch 17, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.02704751744473085
+Epoch 18, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.025546138731322904
+Epoch 19, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.024202697491487683
+Epoch 20, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.02299351476201418
+val_loss=0.40537903115663493, val_acc=0.91275
+Early stopping
+test_precision=0.91308, test_recall=0.91098, test_f1=0.91063, test_accuracy=0.91275
+Number of parameter:  20.8347M
+Epoch 1, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.21151942535148313
+Epoch 2, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.11480464848151314
+Epoch 3, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.07715203100582484
+Epoch 4, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.05797247546080219
+Epoch 5, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.046414461116793364
+val_loss=0.43511851095574555, val_acc=0.89933
+Epoch 6, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.038702282654520685
+Epoch 7, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.03318973554986639
+Epoch 8, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.0290528483622802
+Epoch 9, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.025833579323010173
+Epoch 10, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.023256973433858092
+val_loss=0.4457765051269426, val_acc=0.89933
+Epoch 11, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.021147978620558592
+Epoch 12, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.01938983725468145
+Epoch 13, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.017901689679140943
+Epoch 14, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.016625757259722172
+Epoch 15, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.015519653882981705
+val_loss=0.45393289795461705, val_acc=0.89933
+Epoch 16, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.014551580533244249
+Epoch 17, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.013697210713857088
+Epoch 18, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.012937619227202924
+Epoch 19, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.012257860392718844
+Epoch 20, 60 GHz, batch_size=8, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.011645974865734198
+val_loss=0.4608164019588051, val_acc=0.89933
+Early stopping
+test_precision=0.89764, test_recall=0.89544, test_f1=0.89498, test_accuracy=0.89933
+Number of parameter:  14.4782M
+Epoch 1, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.26962282768401663
+Epoch 2, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.17213473025566073
+Epoch 3, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.13790072898491576
+Epoch 4, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.1127115965237073
+Epoch 5, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.09238318140467432
+val_loss=0.8343348383903504, val_acc=0.84564
+Epoch 6, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.0790933240149439
+Epoch 7, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.06880045901402584
+Epoch 8, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.06050562223769097
+Epoch 9, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.053818855455435154
+Epoch 10, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.04845583491390761
+val_loss=0.6525159415788948, val_acc=0.90604
+Epoch 11, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.044065074502730804
+Epoch 12, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.040404267570959565
+Epoch 13, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.03730535834320053
+Epoch 14, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.034648190828229786
+Epoch 15, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.032344583244266194
+val_loss=0.5982758915051818, val_acc=0.90604
+Epoch 16, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.03032835494512502
+Epoch 17, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.028548874966879287
+Epoch 18, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.026966746507790088
+Epoch 19, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.025550855667254044
+Epoch 20, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.024276303437245916
+val_loss=0.5745838624425232, val_acc=0.90604
+Epoch 21, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.02312292701739711
+Epoch 22, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.022074226056529703
+Epoch 23, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.021116564958938926
+Epoch 24, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.020238578704832227
+Epoch 25, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.01943071891473135
+val_loss=0.5626231519412249, val_acc=0.90604
+Epoch 26, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.018684903923696997
+Epoch 27, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.017994248486706627
+Epoch 28, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.017352849852869855
+Epoch 29, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.016755618390222493
+Epoch 30, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.016198142666083864
+val_loss=0.5562505486925754, val_acc=0.90604
+Epoch 31, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.01567658006694505
+Epoch 32, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.015187567540796105
+Epoch 33, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.014728149339463216
+Epoch 34, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.014295717283066205
+Epoch 35, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.01388796060842902
+val_loss=0.5529001079998644, val_acc=0.90604
+Epoch 36, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.013502825636182134
+Epoch 37, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.013138480282704406
+Epoch 38, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.01279328501076537
+Epoch 39, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.012465768320270462
+Epoch 40, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.01215460583189537
+val_loss=0.5513120009651175, val_acc=0.90604
+Epoch 41, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.01185860214443841
+Epoch 42, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.011576675648462282
+Epoch 43, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.011307845240053183
+Epoch 44, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.011051218868390944
+Epoch 45, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.010805983828353329
+val_loss=0.5508154900201286, val_acc=0.90604
+Epoch 46, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.010571397969797674
+Epoch 47, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.010346782254262691
+Epoch 48, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.010131514221639451
+Epoch 49, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.009925022144897145
+Epoch 50, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.009726780015561234
+val_loss=0.5510246729152277, val_acc=0.90604
+Epoch 51, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.009536302973115522
+Epoch 52, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.009353143472844206
+Epoch 53, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.009176887743290701
+Epoch 54, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.009007152601057125
+Epoch 55, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.008843582687817228
+val_loss=0.5517008786110885, val_acc=0.90604
+Epoch 56, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.008685848112028492
+Epoch 57, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.008533642015502864
+Epoch 58, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.008386678645191981
+Epoch 59, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.008244691754084347
+Epoch 60, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.008107432658698488
+val_loss=0.5527079162585626, val_acc=0.90604
+Early stopping
+test_precision=0.90433, test_recall=0.90571, test_f1=0.90379, test_accuracy=0.90604
+Number of parameter:  14.4782M
+Epoch 1, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.3268759420614898
+Epoch 2, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.1765839609027975
+Epoch 3, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.11976246671018312
+Epoch 4, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.09036782732196595
+Epoch 5, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.07256234633164
+val_loss=0.34831401201081463, val_acc=0.91275
+Epoch 6, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.06062902375061528
+Epoch 7, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.05207270948876886
+Epoch 8, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.045635980523628994
+Epoch 9, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.04061763257592428
+Epoch 10, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.03659489031243766
+val_loss=0.36168532720621444, val_acc=0.91275
+Epoch 11, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.03329799680703677
+Epoch 12, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.030546667556600886
+Epoch 13, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.028215685267702458
+Epoch 14, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.026215523802791626
+Epoch 15, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.024480334115132632
+val_loss=0.371576539001641, val_acc=0.91275
+Epoch 16, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.02296072503002328
+Epoch 17, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.021618854300207668
+Epoch 18, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.020425247622375815
+Epoch 19, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.01935661657278754
+Epoch 20, 60 GHz, batch_size=16, dense_1=64, dense_2=32, learn_rate=0.0001, train_loss=0.01839429906959508
+val_loss=0.379337093488175, val_acc=0.91275
+Early stopping
+test_precision=0.91364, test_recall=0.91039, test_f1=0.91064, test_accuracy=0.91275
+Number of parameter:  14.4804M
+Epoch 1, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.26542661036364723
+Epoch 2, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.14423733698139293
+Epoch 3, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.09707414643507534
+Epoch 4, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.07293646603366054
+Epoch 5, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.05841755369794469
+val_loss=0.25756348185241223, val_acc=0.93289
+Epoch 6, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.04872356868644157
+Epoch 7, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.041791654900348064
+Epoch 8, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.03658813486735322
+Epoch 9, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.032537960623160264
+Epoch 10, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.029295810138804015
+val_loss=0.26809006754047005, val_acc=0.93289
+Epoch 11, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.026641674512593885
+Epoch 12, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.02442883220189933
+Epoch 13, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.022555625271881048
+Epoch 14, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.020949407179207576
+Epoch 15, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.019556866291803407
+val_loss=0.2764087829971686, val_acc=0.93289
+Epoch 16, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.018338013355149646
+Epoch 17, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.01726224954905436
+Epoch 18, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.01630576682826723
+Epoch 19, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.015449763062757315
+Epoch 20, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0002, train_loss=0.014679189036103263
+val_loss=0.2836289190861862, val_acc=0.93289
+Early stopping
+test_precision=0.93474, test_recall=0.93238, test_f1=0.9321, test_accuracy=0.93289
+Number of parameter:  14.4804M
+Epoch 1, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.2768112657094638
+Epoch 2, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.1515482822828505
+Epoch 3, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.10538836930662224
+Epoch 4, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.07972698639862062
+Epoch 5, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.0639666788233961
+val_loss=0.2884907960658893, val_acc=0.93289
+Epoch 6, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.05340955767129193
+Epoch 7, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.04584720435490423
+Epoch 8, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.04016372506774545
+Epoch 9, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.03573581596843492
+Epoch 10, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.032188554619630105
+val_loss=0.3100825723537127, val_acc=0.9396
+Epoch 11, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.029282809478908323
+Epoch 12, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.026858888003510783
+Epoch 13, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.024806037344615013
+Epoch 14, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.023045048457179616
+Epoch 15, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.02151777712084555
+val_loss=0.3233406401831113, val_acc=0.9396
+Epoch 16, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.020180549538983072
+Epoch 17, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.018999957558605993
+Epoch 18, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.017949980637174862
+Epoch 19, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.01701006811188094
+Epoch 20, 60 GHz, batch_size=16, dense_1=64, dense_2=64, learn_rate=0.0001, train_loss=0.016163765480071764
+val_loss=0.3331947375434538, val_acc=0.9396
+Early stopping
+test_precision=0.94221, test_recall=0.94167, test_f1=0.94138, test_accuracy=0.9396
+Number of parameter:  16.5817M
+Epoch 1, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.22698400078604064
+Epoch 2, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.13187197346949114
+Epoch 3, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.08901588444334202
+Epoch 4, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.06700169539104643
+Epoch 5, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.05364492666345828
+val_loss=0.4479627416469157, val_acc=0.92617
+Epoch 6, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.044726604754260824
+Epoch 7, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.03835292553561205
+Epoch 8, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.03357049238837892
+Epoch 9, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.02984933184671779
+Epoch 10, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.026871341265735125
+val_loss=0.4586598172900267, val_acc=0.92617
+Epoch 11, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.02443402866768601
+Epoch 12, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.022402353951168845
+Epoch 13, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.0206828015395864
+Epoch 14, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.019208557754897885
+Epoch 15, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.017930608207355266
+val_loss=0.46875037161419947, val_acc=0.92617
+Epoch 16, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.016812184429681087
+Epoch 17, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.01582516281374025
+Epoch 18, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.014947664108889726
+Epoch 19, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.01416241154119224
+Epoch 20, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0002, train_loss=0.013455581928392378
+val_loss=0.47762176519609056, val_acc=0.92617
+Early stopping
+test_precision=0.92874, test_recall=0.92974, test_f1=0.92644, test_accuracy=0.92617
+Number of parameter:  16.5817M
+Epoch 1, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.21803860113907017
+Epoch 2, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.12317289698694367
+Epoch 3, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.08463882225368523
+Epoch 4, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.06372325784660031
+Epoch 5, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.051074686270294475
+val_loss=0.38017680154880507, val_acc=0.93289
+Epoch 6, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.04261979601145421
+Epoch 7, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.0365696433597661
+Epoch 8, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.032025692986137166
+Epoch 9, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.028487503811293582
+Epoch 10, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.025654253579255295
+val_loss=0.3997609114681836, val_acc=0.92617
+Epoch 11, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.02333423989257513
+Epoch 12, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.021399510436196038
+Epoch 13, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.01976138427304426
+Epoch 14, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.0183564745296082
+Epoch 15, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.01713825894233499
+val_loss=0.4128733470007622, val_acc=0.93289
+Epoch 16, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.016071821727684055
+Epoch 17, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.01513044467346929
+Epoch 18, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.014293337024334149
+Epoch 19, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.013544074211438486
+Epoch 20, 60 GHz, batch_size=16, dense_1=128, dense_2=64, learn_rate=0.0001, train_loss=0.012869510742524126
+val_loss=0.42278823248998376, val_acc=0.93289
+Early stopping
+test_precision=0.938, test_recall=0.93482, test_f1=0.9352, test_accuracy=0.93289
+Number of parameter:  16.5903M
+Epoch 1, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.1756472040402801
+Epoch 2, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.10344201228336285
+Epoch 3, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.08908921505430849
+Epoch 4, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.08478679654251046
+Epoch 5, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.07403890706944136
+val_loss=0.7945200215152, val_acc=0.91946
+Epoch 6, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.06505154386050287
+Epoch 7, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.0568664041608479
+Epoch 8, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.05005991956567949
+Epoch 9, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.04451381033109266
+Epoch 10, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.04006740076865382
+val_loss=0.783216840303794, val_acc=0.9396
+Epoch 11, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.03642822756727998
+Epoch 12, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.03339501819322561
+Epoch 13, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.030828114703523056
+Epoch 14, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.02862768168773527
+Epoch 15, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.026720475257403373
+val_loss=0.7777154275565408, val_acc=0.9396
+Epoch 16, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.02505154715770964
+Epoch 17, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.023578868650560258
+Epoch 18, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.02226974610289007
+Epoch 19, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.02109836621516629
+Epoch 20, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.02004407582977396
+val_loss=0.7746885451131675, val_acc=0.9396
+Epoch 21, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.01909015377351602
+Epoch 22, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.018222918177957136
+Epoch 23, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.017431065854651498
+Epoch 24, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.016705176565197422
+Epoch 25, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.016037337176189107
+val_loss=0.7729147522954736, val_acc=0.9396
+Epoch 26, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.015420851537138392
+Epoch 27, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.014850015258525112
+Epoch 28, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.014319938688632303
+Epoch 29, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.013826406475268052
+Epoch 30, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.01336576507145599
+val_loss=0.7718368249763443, val_acc=0.9396
+Epoch 31, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.01293483234298913
+Epoch 32, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.012530823769285635
+Epoch 33, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.012151292365253794
+Epoch 34, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.011794078893778072
+Epoch 35, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.011457270910122972
+val_loss=0.7711792256550065, val_acc=0.9396
+Epoch 36, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.011139168316369638
+Epoch 37, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.01083825475598406
+Epoch 38, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.010553173581793874
+Epoch 39, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.010282707214513744
+Epoch 40, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.010025759783776409
+val_loss=0.7708069615953719, val_acc=0.9396
+Epoch 41, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.00978134230949485
+Epoch 42, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.009548560023497642
+Epoch 43, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.00932660139642771
+Epoch 44, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.009114728576294964
+Epoch 45, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.008912269337168162
+val_loss=0.7706406744324744, val_acc=0.9396
+Epoch 46, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.008718609826556397
+Epoch 47, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.008533188551548167
+Epoch 48, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.008355490732692605
+Epoch 49, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.008185043645367188
+Epoch 50, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.008021412284887047
+val_loss=0.770629206244048, val_acc=0.9396
+Epoch 51, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.007864195860690681
+Epoch 52, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.007713024378328648
+Epoch 53, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.007567555708270734
+Epoch 54, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.0074274730965927125
+Epoch 55, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.007292482836713859
+val_loss=0.7707375004350483, val_acc=0.9396
+Epoch 56, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.007162312225603496
+Epoch 57, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.007036707563137956
+Epoch 58, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.00691543279787257
+Epoch 59, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.006798267795447819
+Epoch 60, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.006685007100397302
+val_loss=0.7709337549832223, val_acc=0.9396
+Epoch 61, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.0065754587715280855
+Epoch 62, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.006469443178217075
+Epoch 63, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.006366792150979168
+Epoch 64, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.006267347994158274
+Epoch 65, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0002, train_loss=0.00617096274057915
+val_loss=0.7711969291661472, val_acc=0.9396
+Early stopping
+test_precision=0.94685, test_recall=0.94127, test_f1=0.94052, test_accuracy=0.9396
+Number of parameter:  16.5903M
+Epoch 1, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.24067027052239465
+Epoch 2, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.12417409493901375
+Epoch 3, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.08311156956200282
+Epoch 4, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.06241524897404217
+Epoch 5, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.04998019318189491
+val_loss=0.36131118443154264, val_acc=0.93289
+Epoch 6, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.04168166894872851
+Epoch 7, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.035749211409025566
+Epoch 8, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.03129673701072022
+Epoch 9, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.027831586291664247
+Epoch 10, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.025057971913357853
+val_loss=0.36905220898770497, val_acc=0.93289
+Epoch 11, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.022787564768650414
+Epoch 12, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.020894746262401866
+Epoch 13, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.01929251049863513
+Epoch 14, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.01791868165009527
+Epoch 15, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.016727646703218885
+val_loss=0.3758544898048664, val_acc=0.92617
+Epoch 16, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.01568518311682703
+Epoch 17, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.014765111377750278
+Epoch 18, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.013947063166410648
+Epoch 19, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.013214953445466656
+Epoch 20, 60 GHz, batch_size=16, dense_1=128, dense_2=128, learn_rate=0.0001, train_loss=0.012555910834670034
+val_loss=0.3817593204068544, val_acc=0.92617
+Early stopping
+test_precision=0.9259, test_recall=0.92897, test_f1=0.92711, test_accuracy=0.92617
+Number of parameter:  20.8011M
+Epoch 1, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.1676282312833555
+Epoch 2, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.11404181722296271
+Epoch 3, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.08343120731310064
+Epoch 4, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.07246286134192932
+Epoch 5, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.06475122551732936
+val_loss=0.9145249748020433, val_acc=0.88591
+Epoch 6, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.057891556866844475
+Epoch 7, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.05698094939121008
+Epoch 8, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.050292726440334244
+Epoch 9, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.04696343658578785
+Epoch 10, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.0423553191864409
+val_loss=0.7008389823575272, val_acc=0.92617
+Epoch 11, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.03851109196405647
+Epoch 12, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.03530442089398234
+Epoch 13, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.03259062319394882
+Epoch 14, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.03026425127747769
+Epoch 15, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.028247887851501684
+val_loss=0.6203482824110931, val_acc=0.92617
+Epoch 16, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.026483444418966703
+Epoch 17, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.024926487055515686
+Epoch 18, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.023542450605165778
+Epoch 19, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.022304043252275602
+Epoch 20, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.02118942897878821
+val_loss=0.5814533705468421, val_acc=0.92617
+Epoch 21, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.020180928871958288
+Epoch 22, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.019264077521144722
+Epoch 23, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.018426924285200163
+Epoch 24, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.017659509725064373
+Epoch 25, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.016953467661239487
+val_loss=0.5590808315054164, val_acc=0.91946
+Epoch 26, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.016301718491074545
+Epoch 27, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.01569823128234873
+Epoch 28, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.015137836384620684
+Epoch 29, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.014616077168933771
+Epoch 30, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.014129090929507667
+val_loss=0.5448753876797128, val_acc=0.91946
+Epoch 31, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.013673513431158262
+Epoch 32, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.013246400778202229
+Epoch 33, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.01284516585735076
+Epoch 34, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.01246752595043576
+Epoch 35, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.012111459042131342
+val_loss=0.5352913024403928, val_acc=0.91946
+Epoch 36, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.011775167763708816
+Epoch 37, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.011457049194360603
+Epoch 38, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.011155668847691461
+Epoch 39, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.010869739429488675
+Epoch 40, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.01059810240926218
+val_loss=0.5285615769241303, val_acc=0.91946
+Epoch 41, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.01033971231259873
+Epoch 42, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.010093623028679626
+Epoch 43, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.009858976461555688
+Epoch 44, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.009634992581934005
+Epoch 45, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.009420960631099744
+val_loss=0.5237293589024274, val_acc=0.91946
+Epoch 46, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.009216231659711154
+Epoch 47, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.009020212056621006
+Epoch 48, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.008832357608835086
+Epoch 49, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.008652168500907408
+Epoch 50, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.008479184930071828
+val_loss=0.5202172899819197, val_acc=0.91946
+Epoch 51, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.008312983171907956
+Epoch 52, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.008153172054706349
+Epoch 53, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.007999389929150509
+Epoch 54, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.00785130190934597
+Epoch 55, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.007708597532470933
+val_loss=0.5176421022891935, val_acc=0.91946
+Epoch 56, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.0075709884065843685
+Epoch 57, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.0074382064224916555
+Epoch 58, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.007310001954528461
+Epoch 59, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.007186142327389839
+Epoch 60, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.0070664103153719555
+val_loss=0.5157477950427165, val_acc=0.92617
+Epoch 61, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.006950602953147328
+Epoch 62, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.006838530379416068
+Epoch 63, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.006730014790674751
+Epoch 64, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.006624889508393773
+Epoch 65, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.006522998087052235
+val_loss=0.5143600965364525, val_acc=0.92617
+Epoch 66, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.006424193541882509
+Epoch 67, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.006328337675031396
+Epoch 68, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.006235300412164091
+Epoch 69, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.006144959259270162
+Epoch 70, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.006057198688384916
+val_loss=0.5133594156325282, val_acc=0.92617
+Epoch 71, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.005971909682922896
+Epoch 72, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.00588898926915989
+Epoch 73, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.005808340110396091
+Epoch 74, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.005729870184366518
+Epoch 75, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.005653492295618636
+val_loss=0.5126560291942103, val_acc=0.92617
+Epoch 76, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.00557912391016979
+Epoch 77, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.005506686758599532
+Epoch 78, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.005436106562681578
+Epoch 79, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.005367312807593773
+Epoch 80, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.005300238521411404
+val_loss=0.5121905560177538, val_acc=0.92617
+Epoch 81, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.005234820041886057
+Epoch 82, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.005170996757250164
+Epoch 83, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.005108711059463708
+Epoch 84, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.0050479080393788876
+Epoch 85, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.004988535385647507
+val_loss=0.5119149171031442, val_acc=0.92617
+Epoch 86, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.0049305431903698144
+Epoch 87, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.004873883865051053
+Epoch 88, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.004818511977626708
+Epoch 89, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.0047643841511404005
+Epoch 90, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.004711458892930274
+val_loss=0.5117922967482325, val_acc=0.92617
+Epoch 91, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.004659696600980106
+Epoch 92, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.004609059318378282
+Epoch 93, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.004559510767150098
+Epoch 94, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.004511016252694687
+Epoch 95, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.004463542462809828
+val_loss=0.5117992223455651, val_acc=0.92617
+Epoch 96, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.004417057516191748
+Epoch 97, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.004371530826015998
+Epoch 98, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.004326933049898924
+Epoch 99, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.004283236060715004
+Epoch 100, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0002, train_loss=0.004240412834855946
+val_loss=0.5119153124954391, val_acc=0.92617
+test_precision=0.92555, test_recall=0.93101, test_f1=0.92556, test_accuracy=0.92617
+Number of parameter:  20.8011M
+Epoch 1, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.19000792454837784
+Epoch 2, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.09594404568975123
+Epoch 3, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.06408414769748211
+Epoch 4, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.04810024694734388
+Epoch 5, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.038502503994291865
+val_loss=0.327797623922379, val_acc=0.93289
+Epoch 6, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.03210048373445019
+Epoch 7, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.0275255410345634
+Epoch 8, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.024092981846207357
+Epoch 9, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.0214222758258959
+Epoch 10, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.019285038090904556
+val_loss=0.33742578410274293, val_acc=0.9396
+Epoch 11, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.01753588693389834
+Epoch 12, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.01607787712749411
+Epoch 13, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.014843875819222583
+Epoch 14, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.013785921111788687
+Epoch 15, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.012868834158186179
+val_loss=0.34389067747979424, val_acc=0.9396
+Epoch 16, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.012066226025073947
+Epoch 17, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.011357912272892559
+Epoch 18, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.01072819170591693
+Epoch 19, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.010164666942048099
+Epoch 20, 60 GHz, batch_size=16, dense_1=256, dense_2=128, learn_rate=0.0001, train_loss=0.00965741792027049
+val_loss=0.34921248650916825, val_acc=0.9396
+Early stopping
+test_precision=0.94599, test_recall=0.94371, test_f1=0.94182, test_accuracy=0.9396
+Number of parameter:  20.8347M
+Epoch 1, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.15762199752651596
+Epoch 2, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.08299926781741998
+Epoch 3, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.055465826486507865
+Epoch 4, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.04161104078522707
+Epoch 5, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.03329596154105176
+val_loss=0.39078118000079487, val_acc=0.95302
+Epoch 6, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.027751498704558498
+Epoch 7, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.023790528154107052
+Epoch 8, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.020819378194068847
+Epoch 9, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.018508187610234324
+Epoch 10, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.01665901649123595
+val_loss=0.39008156912278763, val_acc=0.95302
+Epoch 11, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.015145891982700338
+Epoch 12, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.013884823007297766
+Epoch 13, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.01281765651507248
+Epoch 14, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.011902853270439747
+Epoch 15, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.011109950109547247
+val_loss=0.39285337181577235, val_acc=0.95302
+Epoch 16, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.010416099586594426
+Epoch 17, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.009803829457321011
+Epoch 18, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.009259549654221329
+Epoch 19, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.008772530289502993
+Epoch 20, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.008334186178906727
+val_loss=0.3972845168704396, val_acc=0.95302
+Epoch 21, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.007937567458143883
+Epoch 22, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.007576986885502495
+Epoch 23, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.007247745904203199
+Epoch 24, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.006945928715379776
+Epoch 25, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0002, train_loss=0.006668246000970068
+val_loss=0.4018562827951064, val_acc=0.95302
+Early stopping
+test_precision=0.95298, test_recall=0.95641, test_f1=0.95179, test_accuracy=0.95302
+Number of parameter:  20.8347M
+Epoch 1, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.16998194239644554
+Epoch 2, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.09151443595553581
+Epoch 3, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.06165358465873476
+Epoch 4, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.04630056526723006
+Epoch 5, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.03707028844525523
+val_loss=0.5158418452367186, val_acc=0.92617
+Epoch 6, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.030911129327312648
+Epoch 7, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.026508601785763017
+Epoch 8, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.02320474412342091
+Epoch 9, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.020633757241941105
+Epoch 10, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.018576017400176913
+val_loss=0.5245554060384165, val_acc=0.92617
+Epoch 11, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.016891703803201003
+Epoch 12, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.015487582325543795
+Epoch 13, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.014299081949337803
+Epoch 14, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.01328006191181772
+Epoch 15, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.012396672578035593
+val_loss=0.5304317557291749, val_acc=0.92617
+Epoch 16, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.011623512797154609
+Epoch 17, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.010941158138656726
+Epoch 18, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.01033449684766687
+Epoch 19, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.00979159431053302
+Epoch 20, 60 GHz, batch_size=16, dense_1=256, dense_2=256, learn_rate=0.0001, train_loss=0.009302899563231087
+val_loss=0.5349629741642274, val_acc=0.92617
+Early stopping
+test_precision=0.93317, test_recall=0.92797, test_f1=0.92408, test_accuracy=0.92617
+[[25  3  1  1  1]
+ [ 0 32  0  0  0]
+ [ 0  0 23  0  0]
+ [ 0  0  0 22  0]
+ [ 0  0  0  1 40]]
+0.9529790940766549
+0.9564122738001574
+0.9517871845874945
+0.9530201342281879

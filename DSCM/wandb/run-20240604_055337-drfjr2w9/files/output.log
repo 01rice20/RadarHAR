@@ -1,0 +1,44 @@
+
+Using device: cuda
+Number of parameter:  14.4782M
+Epoch 1, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=1.1307474720478057
+Epoch 2, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.8975831172863642
+Epoch 3, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.7172137248723043
+Epoch 4, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.5921925544925034
+Epoch 5, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.5075122001373674
+val_loss=0.5890962108969688, val_acc=0.79195
+Epoch 6, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.42935445711721615
+Epoch 7, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.37083968472712775
+Epoch 8, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.3306901418184619
+Epoch 9, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.30367053455882276
+Epoch 10, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.28372713802190264
+val_loss=0.8189670680777023, val_acc=0.75168
+Epoch 11, 60 GHz, batch_size=8, dense_1=64, dense_2=32, learn_rate=0.0002, train_loss=0.2681487263263041
+Traceback (most recent call last):
+  File "/home/inno/DSCM/train.py", line 155, in <module>
+    train()
+  File "/home/inno/DSCM/train.py", line 74, in train
+    for doppler, ranges, labels in dataloader:
+  File "/opt/conda/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 633, in __next__
+    data = self._next_data()
+  File "/opt/conda/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 677, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/opt/conda/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/opt/conda/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/inno/DSCM/model/function.py", line 53, in __getitem__
+    img_r = self.dataset_r[idx][0]
+  File "/opt/conda/lib/python3.10/site-packages/torchvision/datasets/folder.py", line 229, in __getitem__
+    sample = self.loader(path)
+  File "/opt/conda/lib/python3.10/site-packages/torchvision/datasets/folder.py", line 268, in default_loader
+    return pil_loader(path)
+  File "/opt/conda/lib/python3.10/site-packages/torchvision/datasets/folder.py", line 248, in pil_loader
+    return img.convert("RGB")
+  File "/opt/conda/lib/python3.10/site-packages/PIL/Image.py", line 937, in convert
+    self.load()
+  File "/opt/conda/lib/python3.10/site-packages/PIL/ImageFile.py", line 249, in load
+    s = read(self.decodermaxblock)
+  File "/opt/conda/lib/python3.10/site-packages/PIL/PngImagePlugin.py", line 980, in load_read
+    return self.fp.read(read_bytes)
+KeyboardInterrupt

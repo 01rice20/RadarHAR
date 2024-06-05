@@ -1,0 +1,21 @@
+
+Using device: cuda
+Number of parameter:  12.9053M
+Traceback (most recent call last):
+  File "/home/inno/DSCM/train.py", line 155, in <module>
+    train()
+  File "/home/inno/DSCM/train.py", line 80, in train
+    outputs = model(doppler, ranges)
+  File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/inno/DSCM/model/module.py", line 185, in forward
+    x = self.dense_layer(x)
+  File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+  File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/opt/conda/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 114, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (16x32768 and 8192x64)

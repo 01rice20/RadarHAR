@@ -1,0 +1,73 @@
+{
+    "os": "Linux-5.15.0-75-generic-x86_64-with-glibc2.31",
+    "python": "3.10.11",
+    "heartbeatAt": "2024-06-04T06:06:17.386852",
+    "startedAt": "2024-06-04T06:06:16.169833",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/inno/DSCM/train.py",
+    "codePath": "train.py",
+    "host": "9c17ce0715b6",
+    "username": "root",
+    "executable": "/opt/conda/bin/python3",
+    "cpu_count": 6,
+    "cpu_count_logical": 6,
+    "cpu_freq": {
+        "current": 3.233,
+        "min": 800.0,
+        "max": 4100.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2.9,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 2.9,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 3.899,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 2.9,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 2.9,
+            "min": 800.0,
+            "max": 4100.0
+        },
+        {
+            "current": 3.899,
+            "min": 800.0,
+            "max": 4100.0
+        }
+    ],
+    "disk": {
+        "total": 467.8895797729492,
+        "used": 336.889102935791
+    },
+    "gpu": "NVIDIA GeForce RTX 2080",
+    "gpu_count": 2,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2080",
+            "memory_total": 8589934592
+        },
+        {
+            "name": "NVIDIA GeForce RTX 2080",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 15.528156280517578
+    }
+}
