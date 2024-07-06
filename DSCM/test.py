@@ -22,7 +22,6 @@ from model.module import *
 import argparse
 from thop import profile
 
-# os.environ["CUDA_VISIBLE_DEVICES"] = "0, 1"
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print('Using device:', device)
 
@@ -36,12 +35,8 @@ def test(radar=60):
     num_class = 5
     batch_size = 8
     drop = 0.1
-    dense_1 = 256
-    dense_2 = 256
-
-    # if torch.cuda.device_count() > 1:
-    #     premodel1 = nn.DataParallel(premodel1, device_ids=[0, 1]).to(device)
-    #     premodel2 = nn.DataParallel(premodel2, device_ids=[0, 1]).to(device)
+    dense_1 = 128
+    dense_2 = 64
 
     premodel1, premodel2, dataset, _, _, test_sampler, nj = load_data_test(premodel1, premodel2, radar)
     test_dataloader = DataLoader(dataset, batch_size=batch_size, sampler=test_sampler, shuffle=False, pin_memory = True)
@@ -53,6 +48,11 @@ def test(radar=60):
     model = model.to(device)
     model.eval()
     t_pred, t_true = [], []
+    dummy_input = torch.randn(1, 3, 128, 128).to(device)
+
+    flops, params = profile(model, (dummy_input, dummy_input))
+    print('flops: ', flops, 'params: ', params)
+    print('flops: %.2f G, params: %.2f M' % (flops / 1000000000.0, params / 1000000.0))
 
     for doppler, ranges, labels in test_dataloader:
         doppler = doppler.to(device)
@@ -63,9 +63,9 @@ def test(radar=60):
             outputs = model(doppler, ranges)
             _, predicted = torch.max(outputs, 1)
             t_pred.append(predicted)
-            print("predicted: ", predicted)
+            # print("predicted: ", predicted)
             t_true.append(labels)
-            print("labels: ", labels)
+            # print("labels: ", labels)
 
     t_pred = torch.cat(t_pred, dim=0).cpu().numpy()
     t_true = torch.cat(t_true, dim=0).cpu().numpy()
